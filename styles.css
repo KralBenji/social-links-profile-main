@@ -38,8 +38,8 @@ main {
   max-width: 30rem;
 }
 
-/* Box style */
-.wrapper {
+/* Box styles */
+.social-profile {
   border-radius: 50%;
   overflow: hidden;
   height: 6rem;
@@ -55,13 +55,14 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem; /* changed from 0 to 0.5rem for better spacing */
 }
 
 h2 {
   font-size: 0.9rem;
   font-weight: 600;
   color: hsl(75, 94%, 57%);
+  margin-bottom: 2rem; /* added margin-bottom for better spacing between location and description */
 }
 
 p {
